@@ -12,7 +12,7 @@ require (
 	github.com/esiqveland/notify v0.13.3
 	github.com/fsnotify/fsnotify v1.7.0
 	github.com/godbus/dbus/v5 v5.1.0
-	github.com/google/go-github v17.0.0+incompatible
+	github.com/google/go-github v88.0.0
 	github.com/h2non/go-is-svg v0.0.0-20160927212452-35e8c4b0612c
 	github.com/hashicorp/go-version v1.7.0
 	github.com/mattn/go-isatty v0.0.20
