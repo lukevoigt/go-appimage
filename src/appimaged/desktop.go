@@ -16,7 +16,7 @@ import (
 	"golang.org/x/sys/unix"
 
 	"github.com/lukevoigt/go-appimage/internal/helpers"
-	"github.com/go-ini/ini@v1.67.3"
+	"github.com/go-ini/ini"
 )
 
 // tokenizeExec splits an Exec line into tokens, respecting single and double quotes.
@@ -355,7 +355,7 @@ func isWritable(path string) bool {
 }
 
 // Really ugly workaround for
-// https://github.com/go-ini/ini@v1.67.3/issues/90
+// https://github.com/go-ini/ini/issues/90
 func fixDesktopFile(input []byte) []byte {
 	var output []byte
 	if bytes.Contains(input, []byte("=`")) {

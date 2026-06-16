@@ -14,7 +14,7 @@ import (
 
 	"github.com/CalebQ42/squashfs"
 	"github.com/lukevoigt/go-appimage/internal/helpers"
-	"github.com/go-ini/ini@v1.67.3"
+	"github.com/go-ini/ini"
 )
 
 /*

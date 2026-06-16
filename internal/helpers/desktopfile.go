@@ -2,7 +2,7 @@ package helpers
 
 import (
 	"errors"
-	"github.com/go-ini/ini@v1.67.3"
+	"github.com/go-ini/ini"
 	"path/filepath"
 	"strings"
 )
