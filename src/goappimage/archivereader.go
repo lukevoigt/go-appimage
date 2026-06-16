@@ -43,7 +43,7 @@ func newType2Reader(ai *AppImage) (*type2Reader, error) {
 		return nil, err
 	}
 	return &type2Reader{
-		rdr: squashRdr,
+		rdr: &squashRdr,
 	}, nil
 }
 
