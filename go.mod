@@ -1,6 +1,6 @@
 module github.com/lukevoigt/go-appimage
 
-go 1.23
+go 1.26
 
 require (
 	github.com/CalebQ42/squashfs v1.0.4
