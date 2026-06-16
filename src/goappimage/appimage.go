@@ -248,7 +248,7 @@ func (ai AppImage) SquashfsReader() (*squashfs.Reader, error) {
 	if err != nil {
 		return nil, err
 	}
-	return squashRdr, nil
+	return &squashRdr, nil
 }
 
 // Type is the type of the AppImage. Should be either 1 or 2.
