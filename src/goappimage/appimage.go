@@ -14,7 +14,7 @@ import (
 
 	"github.com/CalebQ42/squashfs"
 	"github.com/lukevoigt/go-appimage/internal/helpers"
-	"gopkg.in/ini.v1"
+	"github.com/go-ini/ini"
 )
 
 /*

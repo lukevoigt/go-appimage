@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"gopkg.in/ini.v1"
+	"github.com/go-ini/ini"
 )
 
 type AppDir struct {

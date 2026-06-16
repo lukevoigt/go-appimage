@@ -22,7 +22,7 @@ import (
 
 	"github.com/lukevoigt/go-appimage/internal/helpers"
 	"github.com/shuheiktgw/go-travis"
-	"gopkg.in/src-d/go-git.v4"
+	"github.com/go-git/go-git"
 )
 
 func setupSigning(overwriteSecretFiles bool) error {

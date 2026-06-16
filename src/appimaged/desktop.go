@@ -16,7 +16,7 @@ import (
 	"golang.org/x/sys/unix"
 
 	"github.com/lukevoigt/go-appimage/internal/helpers"
-	"gopkg.in/ini.v1"
+	"github.com/go-ini/ini"
 )
 
 // tokenizeExec splits an Exec line into tokens, respecting single and double quotes.

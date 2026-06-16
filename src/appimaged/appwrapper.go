@@ -15,7 +15,7 @@ import (
 	"github.com/adrg/xdg"
 	"github.com/godbus/dbus/v5"
 	"github.com/lukevoigt/go-appimage/internal/helpers"
-	"gopkg.in/ini.v1"
+	"github.com/go-ini/ini"
 )
 
 func appwrap() {
