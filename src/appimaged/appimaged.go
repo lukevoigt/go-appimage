@@ -15,7 +15,7 @@ import (
 	mqtt "github.com/eclipse/paho.mqtt.golang"
 	"github.com/prometheus/procfs"
 
-	"github.com/probonopd/go-appimage/internal/helpers"
+	"github.com/lukevoigt/go-appimage/internal/helpers"
 )
 
 // TODO: Understand whether we can make clever use of
@@ -77,8 +77,6 @@ var home, _ = os.UserHomeDir()
 var candidateDirectories = append(
 	strings.Split(os.Getenv("PATH"), ":"),
 	[]string{
-		xdg.UserDirs.Download,
-		xdg.UserDirs.Desktop,
 		home + "/.local/bin",
 		home + "/bin",
 		home + "/Applications",

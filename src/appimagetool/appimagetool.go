@@ -17,7 +17,7 @@ import (
 	"time"
 
 	"github.com/mgord9518/imgconv"
-	"github.com/probonopd/go-appimage/internal/helpers"
+	"github.com/lukevoigt/go-appimage/internal/helpers"
 	"github.com/probonopd/go-zsyncmake/zsync"
 	"gopkg.in/ini.v1"
 )

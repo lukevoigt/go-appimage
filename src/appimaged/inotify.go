@@ -28,8 +28,8 @@ import (
 	"time"
 
 	"github.com/fsnotify/fsnotify"
-	"github.com/probonopd/go-appimage/internal/helpers"
-	"github.com/probonopd/go-appimage/src/goappimage"
+	"github.com/lukevoigt/go-appimage/internal/helpers"
+	"github.com/lukevoigt/go-appimage/src/goappimage"
 )
 
 var watcher *fsnotify.Watcher

@@ -3,7 +3,7 @@ package helpers_test
 import (
 	"testing"
 
-	"github.com/probonopd/go-appimage/internal/helpers"
+	"github.com/lukevoigt/go-appimage/internal/helpers"
 )
 
 var err error

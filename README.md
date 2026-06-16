@@ -1,13 +1,17 @@
-# Go AppImage ![](https://github.com/probonopd/go-appimage/actions/workflows/build.yaml/badge.svg)
+# Go AppImage ![](https://github.com/lukevoigt/go-appimage/actions/workflows/build.yaml/badge.svg)
 
 An implementation of [AppImage](https://appimage.org) tools written in Go by the inventor of the AppImage format.
 
+This is a fork of probonopd's work, I wanted to remove/stop appimaged from searching the Downloads folder for security reasons..
+
+Original version https://github.com/probonopd/go-appimage/
+
 Documentation:
 
-* [`appimagetool`](https://github.com/probonopd/go-appimage/blob/master/src/appimagetool/README.md), a tool to deploy dependencies into AppDirs (including things like Qt, Gtk, GStreamer,...) and to convert AppDirs into AppImages
-* [`appimaged`](https://github.com/probonopd/go-appimage/blob/master/src/appimaged/README.md), an optional daemon that integrates AppImages into the system, shows their icons, and makes them executable
+* [`appimagetool`](https://github.com/lukevoigt/go-appimage/blob/master/src/appimagetool/README.md), a tool to deploy dependencies into AppDirs (including things like Qt, Gtk, GStreamer,...) and to convert AppDirs into AppImages
+* [`appimaged`](https://github.com/lukevoigt/go-appimage/blob/master/src/appimaged/README.md), an optional daemon that integrates AppImages into the system, shows their icons, and makes them executable
 
-Download them from https://github.com/probonopd/go-appimage/releases/tag/continuous.
+Download them from https://github.com/lukevoigt/go-appimage/releases/tag/continuous.
 
 ## Update Information
 
@@ -18,7 +22,7 @@ The format of the generated UpdateInformation is:
 gh-releases-zsync|<owner>|<repo>|<release>|<filename>.zsync
 ```
 
-For example: `gh-releases-zsync|probonopd|go-appimage|continuous|appimaged-*-x86_64.AppImage.zsync`
+For example: `gh-releases-zsync|lukevoigt|go-appimage|continuous|appimaged-*-x86_64.AppImage.zsync`
 
 Additionally, a `.zsync` file is automatically generated alongside each AppImage and uploaded to the GitHub Release, enabling efficient delta updates.
 
@@ -40,4 +44,4 @@ Additionally, a `.zsync` file is automatically generated alongside each AppImage
 * https://github.com/golang-standards/project-layout/tree/master/pkg
 
 ## Stargazers over time
-[![Stargazers over time](https://starchart.cc/probonopd/go-appimage.svg?variant=adaptive)](https://starchart.cc/probonopd/go-appimage)
+[![Stargazers over time](https://starchart.cc/lukevoigt/go-appimage.svg?variant=adaptive)](https://starchart.cc/lukevoigt/go-appimage)

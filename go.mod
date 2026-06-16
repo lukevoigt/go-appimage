@@ -1,4 +1,4 @@
-module github.com/probonopd/go-appimage
+module github.com/lukevoigt/go-appimage
 
 go 1.23
 
@@ -8,7 +8,7 @@ require (
 	github.com/adrg/xdg v0.5.0
 	github.com/alokmenghrajani/gpgeez v0.0.0-20161206084504-1a06f1c582f9
 	github.com/coreos/go-systemd/v22 v22.5.0
-	github.com/eclipse/paho.mqtt.golang v1.5.0
+	github.com/eclipse/paho.mqtt.golang v1.5.1
 	github.com/esiqveland/notify v0.13.3
 	github.com/fsnotify/fsnotify v1.7.0
 	github.com/godbus/dbus/v5 v5.1.0
@@ -26,11 +26,11 @@ require (
 	github.com/srwiley/oksvg v0.0.0-20221011165216-be6e8873101c
 	github.com/srwiley/rasterx v0.0.0-20220730225603-2ab79fcdd4ef
 	github.com/urfave/cli/v2 v2.27.4
-	go.lsp.dev/uri v0.3.0
-	golang.org/x/crypto v0.31.0
+	github.com/go-language-server/uri v0.3.0
+	golang.org/x/crypto v0.53.0
 	golang.org/x/sys v0.28.0
-	gopkg.in/ini.v1 v1.67.0
-	gopkg.in/src-d/go-git.v4 v4.13.1
+	github.com/go-ini/ini v1.67.3
+	github.com/go-git/go-git v5.19.1
 )
 
 require (
@@ -60,7 +60,7 @@ require (
 	github.com/xanzy/ssh-agent v0.2.1 // indirect
 	github.com/xrash/smetrics v0.0.0-20240521201337-686a1a2994c1 // indirect
 	github.com/yusufpapurcu/wmi v1.2.4 // indirect
-	golang.org/x/image v0.0.0-20211028202545-6944b10bf410 // indirect
+	golang.org/x/image v0.42.0  // indirect
 	golang.org/x/net v0.33.0 // indirect
 	golang.org/x/sync v0.10.0 // indirect
 	golang.org/x/text v0.21.0 // indirect

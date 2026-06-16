@@ -13,7 +13,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/probonopd/go-appimage/internal/helpers"
+	"github.com/lukevoigt/go-appimage/internal/helpers"
 
 	"github.com/adrg/xdg"
 )
