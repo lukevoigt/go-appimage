@@ -7,7 +7,7 @@ import (
 	"errors"
 	"net/url"
 
-	"github.com/go-ini/ini"
+	"github.com/go-ini/ini@v1.67.3"
 
 	"log"
 	"os"

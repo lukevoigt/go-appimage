@@ -15,7 +15,7 @@ import (
 
 	"github.com/adrg/xdg"
 	"github.com/hashicorp/go-version"
-	"github.com/go-ini/ini"
+	"github.com/go-ini/ini@v1.67.3"
 )
 
 // This key in the desktop files written by appimaged describes where the AppImage is in the filesystem.

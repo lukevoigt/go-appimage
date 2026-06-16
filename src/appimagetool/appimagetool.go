@@ -19,7 +19,7 @@ import (
 	"github.com/mgord9518/imgconv"
 	"github.com/lukevoigt/go-appimage/internal/helpers"
 	"github.com/probonopd/go-zsyncmake/zsync"
-	"github.com/go-ini/ini"
+	"github.com/go-ini/ini@v1.67.3"
 )
 
 // ============================
